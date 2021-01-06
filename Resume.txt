@@ -1,0 +1,17 @@
+Resumo de estudo da Lingguagem C 
+short 2byts = 16bits = 2¹
+Int 4 byts = 32bits = 2³²;
+long 8 byts = 64bits = 2 elevado a 64 ;
+double 8 byts = 64bits = 2 elevado a 64 ;
+float 4 bytes
+
+EXEMPLO DE CASTING, QUANDO VOCÊ PASSA O TIPO ANTES DE DECLARAR A VARIAVÉL.
+O Compilador faz a leitura do código da direita pra esquerda, logo fazer um kasting é declarar
+o tipo antes da variavél.
+
+#include <stdio.h>
+int main() {
+	int a = 3;
+	int b = 2;
+	double pontos = (double) a / (double)b; // casting 
+	printf("%f\n", pontos);
