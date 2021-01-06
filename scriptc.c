@@ -1,7 +1,7 @@
 // First script 
 #include <stdio.h>
 
-main () {
+int main () {
 
     printf("*****************************************************************************************\n");
     printf("*************** Welcome to my first programming on language C ! *************************\n");
